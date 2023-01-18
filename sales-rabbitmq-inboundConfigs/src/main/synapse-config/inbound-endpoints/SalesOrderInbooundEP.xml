@@ -4,13 +4,13 @@
         <parameter name="sequential">true</parameter>
         <parameter name="coordination">true</parameter>
         <parameter name="rabbitmq.connection.factory">AMQPConnectionFactory</parameter>
-        <parameter name="rabbitmq.server.host.name">host-name</parameter>
+        <parameter name="rabbitmq.server.host.name">dingo.rmq.cloudamqp.com</parameter>
         <parameter name="rabbitmq.server.port">5672</parameter>
-        <parameter name="rabbitmq.server.user.name">user</parameter>
-        <parameter name="rabbitmq.server.password">pass</parameter>
+        <parameter name="rabbitmq.server.user.name">cgsqdwsf</parameter>
+        <parameter name="rabbitmq.server.password">vFm4y8aPT7I0y0wGA2W3N31yBfhI4aoe</parameter>
         <parameter name="rabbitmq.queue.name">SalesOrderQueue</parameter>
         <parameter name="rabbitmq.exchange.name">amq.direct</parameter>
-        <parameter name="rabbitmq.server.virtual.host">vhost</parameter>
+        <parameter name="rabbitmq.server.virtual.host">cgsqdwsf</parameter>
         <parameter name="rabbitmq.message.content.type">application/xml</parameter>
     </parameters>
 </inboundEndpoint>
